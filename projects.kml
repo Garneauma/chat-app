@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>Projects</name>
+<Schema name="Projects" id="Projects">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="Program" type="string"></SimpleField>
+	<SimpleField name="Project" type="string"></SimpleField>
+	<SimpleField name="Amount" type="string"></SimpleField>
+	<SimpleField name="Client" type="string"></SimpleField>
+</Schema>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Projects">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="Amount">$ 40,630</SimpleData>
+		<SimpleData name="Client">District of 100 Mile House</SimpleData>
+		<SimpleData name="Program">Tourism Relief Fund</SimpleData>
+		<SimpleData name="Project">Develop a tourism asset inventory, wayfinding strategy and e-bike service - Budget 2021</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-121.2950,51.6440</coordinates></Point>
+</Placemark>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Projects">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="Amount">$ 1,171,800</SimpleData>
+		<SimpleData name="Client">Chinook Helicopters (1982) Ltd.</SimpleData>
+		<SimpleData name="Program">Aerospace Recovery Initiative</SimpleData>
+		<SimpleData name="Project">Develop and commercialize Virtual Reality Training and Simulation system - Budget 2021</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-122.3045,49.0504</coordinates></Point>
+</Placemark>
+</Folder></Document></kml>
