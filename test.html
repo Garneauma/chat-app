@@ -1,53 +1,64 @@
+---
+{
+	"title": "Geomap",
+	"language": "en",
+	"category": "Plugins",
+	"description": "Displays a dynamic map over which information from additional sources can be overlaid.",
+	"tag": "geomap",
+	"parentdir": "geomap",
+	"altLangPrefix": "geomap",
+	"js": ["demo/client_functions"],
+	"dateModified": "2016-04-22"
+}
+---
 <div id="sample_map_filter" class="wb-geomap" data-wb-geomap='{
     "basemap" : {
         "title": "OSM Map",
         "type": "osm",
         "mapOptions": {
-            "center": [ -121, 52 ],
+            "center": [ -122, 52 ],
             "zoomLevel": 6
         }
     },
 	"overlays": [
 		{
 			"title": "Projects",
-			"caption": "List of projects",
-			"type": "geojson",
-			"url": "https://raw.githubusercontent.com/Garneauma/chat-app/master/geo.json",
+			"caption": "This data is extracted from the <a href=\"http://geogratis.gc.ca/api/en/nrcan-rncan/ess-sst/457ede2f-fd65-5936-ab60-3fe71da0e98b\">Principal mineral areas of Canada</a> publication.",
+			"type": "kml",
+			"url": "demo/projects.kml",
 			"visible": true,
+			"datatable": true,
+			"tooltips": true,
+			"tooltipText": "Operation",
+			"popups": true,
 			"attributes": {
-				"program": "Program"
+				"Program": "Program",
+                "Client": "Client",
+                "Amount": "Amount",
+                "Project": "Project"
 			},
-            "zoom": false,
 			"style": {
 				"type": "unique",
 				"field": "Program",
 				"init": {
 					"Tourism Relief Fund": {
 						"externalGraphic": "https://img.icons8.com/small/2x/pin.png",
-						"fillOpacity": 0.5,
-						"graphicWidth": 32,
-						"graphicHeight": 32
+						"graphicOpacity": "0.5",
+						"graphicWidth": "32",
+						"graphicHeight": "32"
 					},
 					"Aerospace Recovery Initiative": {
-						"externalGraphic": "https://img.icons8.com/officexs/2x/pin3.png",
-						"fillOpacity": 0.5,
-						"graphicWidth": 32,
-						"graphicHeight": 32
+						"externalGraphic": "https://img.icons8.com/small/2x/pin3.png",
+						"graphicOpacity": "0.5",
+						"graphicWidth": "32",
+                        "graphicHeight": "32"
 					}
 				},
 				"select": {
-					"Tourism Relief Fund": {
-						"externalGraphic": "https://img.icons8.com/small/2x/pin.png",
-						"fillOpacity": 1,
-						"graphicWidth": 32,
-						"graphicHeight": 32
-					},
-					"Aerospace Recovery Initiative": {
-						"externalGraphic": "https://img.icons8.com/officexs/2x/pin3.png",
-						"fillOpacity": 1,
-						"graphicWidth": 32,
-						"graphicHeight": 32
-					}
+                    "externalGraphic": "https://img.icons8.com/small/2x/pin3.png",
+                    "graphicOpacity": "1",
+                    "graphicWidth": "32",
+                    "graphicHeight": "32"
 				}
 			}
 		}
