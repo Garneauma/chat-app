@@ -11,11 +11,7 @@
         "client": "District of 100 Mile House",
         "amount": "$ 40,630",
         "project": "Develop a tourism asset inventory, wayfinding strategy and e-bike service - Budget 2021",
-        "program": "Tourism Relief Fund",
-        "iconurl": "icons/TourismReliefFund.png",
-        "iconSize": [85, 90],
-        "iconAnchor": [38, 86],
-        "popupAnchor": [0, -80]
+        "program": "Tourism Relief Fund"
       }
     },
     {
@@ -28,11 +24,7 @@
         "client": "1093532 B.C. LTD.",
         "amount": "$ 99,999",
         "project": "Support a golf resort upgrade to attract tourists to the Cariboo region - Budget 2021",
-        "program": "Tourism Relief Fund",
-        "iconurl": "icons/TourismReliefFund",
-        "iconSize": [85, 90],
-        "iconAnchor": [38, 86],
-        "popupAnchor": [0, -80]
+        "program": "Tourism Relief Fund"
       }
     },
     {
@@ -45,11 +37,7 @@
         "client": "1346417 BC LTD.",
         "amount": "$ 99,999",
         "project": "Upgrade rodeo venue infrastructure for tourism in 150 Mile House, BC- Budget 2021",
-        "program": "Tourism Relief Fund",
-        "iconurl": "icons/TourismReliefFund",
-        "iconSize": [85, 90],
-        "iconAnchor": [38, 86],
-        "popupAnchor": [0, -80]
+        "program": "Tourism Relief Fund"
       }
     },
     {
@@ -62,11 +50,7 @@
         "client": "Chinook Helicopters (1982) Ltd.",
         "amount": "$ 1,171,800",
         "project": "Develop and commercialize Virtual Reality Training and Simulation system - Budget 2021",
-        "program": "Aerospace Recovery Initiative",
-        "iconurl": "icons/AerospaceRecoveryInitiative",
-        "iconSize": [85, 90],
-        "iconAnchor": [38, 86],
-        "popupAnchor": [0, -80]
+        "program": "Aerospace Recovery Initiative"
       }
     }
   ]
