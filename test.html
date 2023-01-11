@@ -1,0 +1,64 @@
+<div id="sample_map_filter" class="wb-geomap position scaleline geocoder geolocation" data-wb-geomap='{
+	"overlays": [
+		{
+			"title": "Investments",
+			"caption": "This is a test",
+			"type": "geojson",
+			"url": "https://raw.githubusercontent.com/Garneauma/chat-app/master/geo.json",
+			"visible": true,
+			"attributes": {
+				"program": "Program"
+			},
+			"style": {
+				"type": "unique",
+				"field": "Program",
+				"init": {
+					"Tourism Relief Fund": {
+						"externalGraphic": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Canada_%28leaf%29.svg/985px-Flag_of_Canada_%28leaf%29.svg.png",
+						"opacity": 1,
+						"graphicWidth": 25,
+						"graphicHeight": 25,
+						"name": "Tourism Relief Fund"
+					},
+					"Aerospace Recovery Initiative": {
+						"externalGraphic": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Canada_%28leaf%29.svg/985px-Flag_of_Canada_%28leaf%29.svg.png",
+						"opacity": 1,
+						"graphicWidth": 25,
+						"graphicHeight": 25,
+						"name": "Aerospace Recovery Initiative"
+					}
+				},
+				"select": {
+					"Tourism Relief Fund": {
+						"externalGraphic": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Canada_%28leaf%29.svg/985px-Flag_of_Canada_%28leaf%29.svg.png",
+						"opacity": 1,
+						"graphicWidth": 25,
+						"graphicHeight": 25,
+						"name": "Tourism Relief Fund"
+					},
+					"Aerospace Recovery Initiative": {
+						"externalGraphic": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Canada_%28leaf%29.svg/985px-Flag_of_Canada_%28leaf%29.svg.png",
+						"opacity": 1,
+						"graphicWidth": 25,
+						"graphicHeight": 25,
+						"name": "Aerospace Recovery Initiative"
+					}
+				}
+			}
+		}
+	]
+}'>
+	<div class="row">
+		<div class="col-md-9">
+			<!-- Insert Map Start (mandatory) -->
+			<div class="wb-geomap-map"></div>
+			<!-- Insert Map End -->
+		</div>
+		<!-- Insert legend Data Start (mandatory) -->
+		<div class="col-md-3">
+			<div class="wb-geomap-legend"></div>
+		</div>
+		<!-- Insert legend Data End -->
+	</div>
+	<div class="wb-geomap-layers"></div>
+</div>
