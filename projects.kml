@@ -2,32 +2,179 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document><Folder><name>Projects</name>
 <Schema name="Projects" id="Projects">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
 	<SimpleField name="Name" type="string"></SimpleField>
 	<SimpleField name="Description" type="string"></SimpleField>
-	<SimpleField name="OBJECTID" type="int"></SimpleField>
-	<SimpleField name="Program" type="string"></SimpleField>
-	<SimpleField name="Project" type="string"></SimpleField>
+	<SimpleField name="Rank" type="int"></SimpleField>
 	<SimpleField name="Amount" type="string"></SimpleField>
+	<SimpleField name="Project" type="string"></SimpleField>
 	<SimpleField name="Client" type="string"></SimpleField>
+	<SimpleField name="Program" type="string"></SimpleField>
 </Schema>
 <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#Projects">
-		<SimpleData name="OBJECTID">2</SimpleData>
-		<SimpleData name="Amount">$ 40,630</SimpleData>
-		<SimpleData name="Client">District of 100 Mile House</SimpleData>
-		<SimpleData name="Program">Tourism Relief Fund</SimpleData>
-		<SimpleData name="Project">Develop a tourism asset inventory, wayfinding strategy and e-bike service - Budget 2021</SimpleData>
-	</SchemaData></ExtendedData>
-	<Point><coordinates>-121.2950,51.6440</coordinates></Point>
+	<ExtendedData>
+		<SchemaData schemaUrl="#Projects">
+			<SimpleData name="OBJECTID">1</SimpleData>
+			<SimpleData name="Rank">2</SimpleData>
+			<SimpleData name="Amount">$10,000,000</SimpleData>
+			<SimpleData name="Project">Create an Agtech Innovation Sandbox (AGIS) to scale up and commercialize agtech in BC</SimpleData>
+			<SimpleData name="Client">Simon Fraser University</SimpleData>
+			<SimpleData name="Program">Regional Innovation Ecosystem</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<Point>
+		<coordinates>-122.849,49.191299999999998</coordinates>
+	</Point>
 </Placemark>
 <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#Projects">
-		<SimpleData name="OBJECTID">3</SimpleData>
-		<SimpleData name="Amount">$ 1,171,800</SimpleData>
-		<SimpleData name="Client">Chinook Helicopters (1982) Ltd.</SimpleData>
-		<SimpleData name="Program">Aerospace Recovery Initiative</SimpleData>
-		<SimpleData name="Project">Develop and commercialize Virtual Reality Training and Simulation system - Budget 2021</SimpleData>
-	</SchemaData></ExtendedData>
-	<Point><coordinates>-122.3045,49.0504</coordinates></Point>
+	<ExtendedData>
+		<SchemaData schemaUrl="#Projects">
+			<SimpleData name="OBJECTID">2</SimpleData>
+			<SimpleData name="Rank">3</SimpleData>
+			<SimpleData name="Amount">$10,000,000</SimpleData>
+			<SimpleData name="Project">Perform infrastructure modernization and gallery upgrades for Science World - Budget 2021</SimpleData>
+			<SimpleData name="Client">A.S.T.C. Science World Society</SimpleData>
+			<SimpleData name="Program">Tourism Relief Fund</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<Point>
+		<coordinates>-123.1207,49.282699999999998</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<ExtendedData>
+		<SchemaData schemaUrl="#Projects">
+			<SimpleData name="OBJECTID">3</SimpleData>
+			<SimpleData name="Rank">4</SimpleData>
+			<SimpleData name="Amount">$9,750,000</SimpleData>
+			<SimpleData name="Project">Increase Manufacturing of Hydrogen Fuel Cell Stacks & Modules - Budget 2021</SimpleData>
+			<SimpleData name="Client">Loop Energy Inc.</SimpleData>
+			<SimpleData name="Program">Jobs and Growth Fund</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<Point>
+		<coordinates>-122.98050000000001,49.248800000000003</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<ExtendedData>
+		<SchemaData schemaUrl="#Projects">
+			<SimpleData name="OBJECTID">4</SimpleData>
+			<SimpleData name="Rank">5</SimpleData>
+			<SimpleData name="Amount">$7,680,000</SimpleData>
+			<SimpleData name="Project">Grow BC biotech by advancing in-vitro and in-situ antiviral therapy for SARS-CoV2 variants</SimpleData>
+			<SimpleData name="Client">The University of British Columbia</SimpleData>
+			<SimpleData name="Program">Regional Innovation Ecosystem</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<Point>
+		<coordinates>-123.1207,49.282699999999998</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<ExtendedData>
+		<SchemaData schemaUrl="#Projects">
+			<SimpleData name="OBJECTID">5</SimpleData>
+			<SimpleData name="Rank">6</SimpleData>
+			<SimpleData name="Amount">$5,566,480</SimpleData>
+			<SimpleData name="Project">Implement a disaster recovery and economic adjustment initiative in British Columbia</SimpleData>
+			<SimpleData name="Client">Community Futures Development Association of B.C.</SimpleData>
+			<SimpleData name="Program">Western Diversification Program</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<Point>
+		<coordinates>-122.3262,49.132899999999999</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<ExtendedData>
+		<SchemaData schemaUrl="#Projects">
+			<SimpleData name="OBJECTID">6</SimpleData>
+			<SimpleData name="Rank">7</SimpleData>
+			<SimpleData name="Amount">$5,098,602</SimpleData>
+			<SimpleData name="Project">Restore air service to BC and Alberta communities impacted by COVID-19</SimpleData>
+			<SimpleData name="Client">Pacific Coastal Airlines Limited</SimpleData>
+			<SimpleData name="Program">Regional Air Transportation Initiative</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<Point>
+		<coordinates>-123.1336,49.166600000000003</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<ExtendedData>
+		<SchemaData schemaUrl="#Projects">
+			<SimpleData name="OBJECTID">7</SimpleData>
+			<SimpleData name="Rank">8</SimpleData>
+			<SimpleData name="Amount">$5,000,000</SimpleData>
+			<SimpleData name="Project">Expand medical device manufacturing facilities</SimpleData>
+			<SimpleData name="Client">Kardium Inc.</SimpleData>
+			<SimpleData name="Program">Business Scale Up and Productivity</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<Point>
+		<coordinates>-122.98050000000001,49.248800000000003</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<ExtendedData>
+		<SchemaData schemaUrl="#Projects">
+			<SimpleData name="OBJECTID">8</SimpleData>
+			<SimpleData name="Rank">9</SimpleData>
+			<SimpleData name="Amount">$5,000,000</SimpleData>
+			<SimpleData name="Project">Commercialize a Cloud-Based Intelligent System (Pello) to Optimize Waste Management</SimpleData>
+			<SimpleData name="Client">RecycleSmart Solutions Inc.</SimpleData>
+			<SimpleData name="Program">Business Scale Up and Productivity</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<Point>
+		<coordinates>-123.1336,49.166600000000003</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<ExtendedData>
+		<SchemaData schemaUrl="#Projects">
+			<SimpleData name="OBJECTID">9</SimpleData>
+			<SimpleData name="Rank">10</SimpleData>
+			<SimpleData name="Amount">$5,000,000</SimpleData>
+			<SimpleData name="Project">Build a Green Hydrogen Production Plant in BC</SimpleData>
+			<SimpleData name="Client">HTEC Hydrogen Technology & Energy Corporation</SimpleData>
+			<SimpleData name="Program">Business Scale Up and Productivity</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<Point>
+		<coordinates>-123.1336,49.166600000000003</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<ExtendedData>
+		<SchemaData schemaUrl="#Projects">
+			<SimpleData name="OBJECTID">10</SimpleData>
+			<SimpleData name="Rank">11</SimpleData>
+			<SimpleData name="Amount">$5,000,000</SimpleData>
+			<SimpleData name="Project">Restore and expand air service to communities in BC and Alberta impacted by COVID-19</SimpleData>
+			<SimpleData name="Client">Central Mountain Air Ltd., 580741 British Columbia Ltd.</SimpleData>
+			<SimpleData name="Program">Regional Air Transportation Initiative</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<Point>
+		<coordinates>-127.1686,54.782400000000003</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<ExtendedData>
+		<SchemaData schemaUrl="#Projects">
+			<SimpleData name="OBJECTID">11</SimpleData>
+			<SimpleData name="Rank">12</SimpleData>
+			<SimpleData name="Amount">$4,862,250</SimpleData>
+			<SimpleData name="Project">Adopt digital technologies to create efficiencies and enhance productivity - Budget 2021</SimpleData>
+			<SimpleData name="Client">Avcorp Industries Inc.</SimpleData>
+			<SimpleData name="Program">Aerospace Recovery Initiative</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<Point>
+		<coordinates>-123.0265,49.095199999999998</coordinates>
+	</Point>
 </Placemark>
 </Folder></Document></kml>
+
