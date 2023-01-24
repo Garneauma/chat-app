@@ -23,7 +23,7 @@
 		</SchemaData>
 	</ExtendedData>
 	<Point>
-		<coordinates>-122.849,49.191299999999998</coordinates>
+		<coordinates>-122.849,49.1912</coordinates>
 	</Point>
 </Placemark>
 <Placemark>
@@ -38,7 +38,7 @@
 		</SchemaData>
 	</ExtendedData>
 	<Point>
-		<coordinates>-123.1207,49.282699999999998</coordinates>
+		<coordinates>-123.1207,49.2826</coordinates>
 	</Point>
 </Placemark>
 <Placemark>
@@ -53,7 +53,7 @@
 		</SchemaData>
 	</ExtendedData>
 	<Point>
-		<coordinates>-122.98050000000001,49.248800000000003</coordinates>
+		<coordinates>-122.9805,49.2488</coordinates>
 	</Point>
 </Placemark>
 <Placemark>
@@ -68,7 +68,7 @@
 		</SchemaData>
 	</ExtendedData>
 	<Point>
-		<coordinates>-123.1207,49.282699999999998</coordinates>
+		<coordinates>-123.1207,49.2826</coordinates>
 	</Point>
 </Placemark>
 <Placemark>
@@ -83,7 +83,7 @@
 		</SchemaData>
 	</ExtendedData>
 	<Point>
-		<coordinates>-122.3262,49.132899999999999</coordinates>
+		<coordinates>-122.3262,49.1328</coordinates>
 	</Point>
 </Placemark>
 <Placemark>
@@ -98,7 +98,7 @@
 		</SchemaData>
 	</ExtendedData>
 	<Point>
-		<coordinates>-123.1336,49.166600000000003</coordinates>
+		<coordinates>-123.1336,49.1666</coordinates>
 	</Point>
 </Placemark>
 <Placemark>
@@ -113,7 +113,7 @@
 		</SchemaData>
 	</ExtendedData>
 	<Point>
-		<coordinates>-122.98050000000001,49.248800000000003</coordinates>
+		<coordinates>-122.9805,49.2488</coordinates>
 	</Point>
 </Placemark>
 <Placemark>
@@ -128,7 +128,7 @@
 		</SchemaData>
 	</ExtendedData>
 	<Point>
-		<coordinates>-123.1336,49.166600000000003</coordinates>
+		<coordinates>-123.1336,49.1666</coordinates>
 	</Point>
 </Placemark>
 <Placemark>
@@ -143,7 +143,7 @@
 		</SchemaData>
 	</ExtendedData>
 	<Point>
-		<coordinates>-123.1336,49.166600000000003</coordinates>
+		<coordinates>-123.1336,49.1666</coordinates>
 	</Point>
 </Placemark>
 <Placemark>
@@ -158,7 +158,7 @@
 		</SchemaData>
 	</ExtendedData>
 	<Point>
-		<coordinates>-127.1686,54.782400000000003</coordinates>
+		<coordinates>-127.1686,54.7824</coordinates>
 	</Point>
 </Placemark>
 <Placemark>
@@ -173,8 +173,7 @@
 		</SchemaData>
 	</ExtendedData>
 	<Point>
-		<coordinates>-123.0265,49.095199999999998</coordinates>
+		<coordinates>-123.0265,49.0951</coordinates>
 	</Point>
 </Placemark>
 </Folder></Document></kml>
-
